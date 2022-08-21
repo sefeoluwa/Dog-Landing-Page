@@ -4,6 +4,7 @@
 
 html{
     scroll-behavior: smooth;
+     
 }
 
 .hero{
@@ -11,7 +12,12 @@ html{
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+   
 
+}
+
+.main{
+    background-color: #1F2937;
 }
 
 .weblogo{
@@ -50,4 +56,21 @@ html{
 
 .sirs {
     width: 200px;
+}
+
+.quote{
+    background-color: #94a3b8;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top:145px;
 }
