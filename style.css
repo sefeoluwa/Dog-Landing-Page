@@ -25,6 +25,17 @@ html{
     justify-content: space-around;
 
 }
+
+.intro-img{
+  width:350px;
+}
+
+.our-agents{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
 .agents{
     display:flex;
     flex-direction: row;
