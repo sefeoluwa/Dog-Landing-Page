@@ -6,18 +6,19 @@
         <title>DogLandingPage</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-    <div class="hero">
-        <img class="weblogo" src="./images/logo.png" alt="company logo">
-        <div class="firstnav">
-           <a>About</a>
-           <a>Home</a>
-           <a>Contact</a>
-        </div>
-    </div> 
-    <div class="first-view">
+    <main class="main">
+        <div class="hero">
+            <img class="weblogo" src="./images/logo.png" alt="company logo">
+            <div class="firstnav">
+               <a href="#first-view">About</a>
+               <a href="#carousel">Agents</a>
+               <a href="#action">Contact</a>
+            </div>
+        </div> 
+    <div class="first-view" id="first-view">
         <div class="intro-text">
             <h1>Bonny Affairs</h1>
             <p>Get your bones on 90% discounts. They were definitely not stolen from the neighbors.</p>
@@ -27,7 +28,8 @@
             <img alt="Bones" src="./images/dogbone.jpg">
         </div>
     </div>
-    <div class="carousel">
+</main>
+    <div class="carousel" id="carousel">
         <h2>Our Agents</h2>
         <div class="agents">
            <div class="agentone">
@@ -52,13 +54,15 @@
         <q>See a nice meal through a window? Contact us and we'll get it for you.</q>
         <p>-Sir Stealsalot</p>
     </div>
-    <div class="action">
-        <h3>Get in contact with us</h3>
-        <p>Reach us to us today. Or are you not hungry?</p>
-        <div class="call-button">
+    <div class="action" id="action">
+     <h3>Get in contact with us</h3>
+     <p>Reach us to us today. Or are you not hungry?</p>
+     <div class="call-button">
             <button>Get A Bone</button>
-        </div>
+     </div>
     </div>
-    <div class="footer"></div>
+    <div class="footer">
+        <p>Copyright &copy Sefeoluwa 2022</p>
+    </div>
     </body>
 </html>
