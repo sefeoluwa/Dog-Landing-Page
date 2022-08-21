@@ -25,3 +25,14 @@ html{
     justify-content: space-around;
 
 }
+.agents{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: no-wrap;
+}
+
+.sirs {
+    width: 200px;
+}
