@@ -8,6 +8,7 @@ html{
 }
 
 .hero{
+   
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -25,15 +26,23 @@ html{
     height: 50px;
 }
 
-.firstnav{
-   
+.nav{
+   text-decoration: none; 
 }
 
 .first-view{
+    color:#F9FAF8;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
+}
+.header{
+    font: 3rem extra-bold;
+}
+
+.header-text{
+    font: 1rem #E5E7EB;
 }
 
 .intro-img{
@@ -59,11 +68,17 @@ html{
 }
 
 .quote{
-    background-color: #94a3b8;
+    background-color: #E5E7EB;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.action{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
 }
 
 .footer{
