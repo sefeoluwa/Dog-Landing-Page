@@ -26,8 +26,9 @@ html{
     height: 50px;
 }
 
-.nav{
-   text-decoration: none; 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: #F9FAF8;
 }
 
 .first-view{
@@ -74,11 +75,22 @@ html{
     justify-content: center;
     align-items: center;
 }
-.action{
+.action-head{
     display:flex;
     flex-direction:column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items:center;
+}
+
+.action-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.call-button{
+    align-self: center;
 }
 
 .footer{
@@ -88,4 +100,23 @@ html{
     justify-content: center;
     align-items: flex-end;
     margin-top:145px;
+}
+
+button{
+    text-transform:uppercase;
+    border-radius: 50px;
+    padding: 10px 30px;
+    text-decoration:wavy;
+    font-weight:600;
+    font-size: 100%;
+    border-style: solid;
+    border-color:  rgb(25 90 200);
+    background-color: ;
+    
+}
+
+button:hover{
+    background-color: midnightblue;
+    color: #E5E7EB;
+    text-shadow:#E5E7EB ;
 }
