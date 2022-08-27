@@ -18,7 +18,7 @@ html{
 }
 
 .main{
-    background-color: #1F2937;
+    background-color: #1f2937;
 }
 
 .weblogo{
@@ -30,6 +30,8 @@ a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: #F9FAF8;
 }
+
+
 
 .first-view{
     color:#F9FAF8;
@@ -74,7 +76,16 @@ a, a:hover, a:focus, a:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 15px;
+    font-size: 20px;
+    font-style:italic;
+    margin-top: 40px;
 }
+
+.action{
+    margin-top: 40px;
+}
+
 .action-head{
     display:flex;
     flex-direction:column;
@@ -110,13 +121,13 @@ button{
     font-weight:600;
     font-size: 100%;
     border-style: solid;
-    border-color:  rgb(25 90 200);
+    border-color:  #334155;
     background-color: ;
     
 }
 
 button:hover{
-    background-color: midnightblue;
+    background-color: #334155;
     color: #E5E7EB;
     text-shadow:#E5E7EB ;
 }
