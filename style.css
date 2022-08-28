@@ -4,7 +4,8 @@
 
 html{
     scroll-behavior: smooth;
-     box-sizing:border-box;
+    box-sizing:border-box;
+    
 }
 
 .hero{
@@ -33,7 +34,6 @@ a, a:hover, a:focus, a:active {
 }
 
 
-
 .first-view{
     color:#F9FAF8;
     display: flex;
@@ -42,12 +42,15 @@ a, a:hover, a:focus, a:active {
     margin-bottom:5%;
 
 }
+
 .header{
     font: 3rem extra-bold;
 }
 
 .header-text{
-    font: 1rem #E5E7EB;
+    font-size: 18px;
+    font-color: #E5E7EB;
+
 }
 
 .intro-img{
@@ -81,6 +84,7 @@ a, a:hover, a:focus, a:active {
 
 .sirs:hover{
     width: 400px;
+    cursor:crosshair;
 }
 
 .quote{
