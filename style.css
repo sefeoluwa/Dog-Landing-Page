@@ -4,18 +4,19 @@
 
 html{
     scroll-behavior: smooth;
-     
+     box-sizing:border-box;
 }
 
 .hero{
-   
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-   
-
+    padding-top: 10px;
+    border: 1.5px;
 }
+
+
 
 .main{
     background-color: #1f2937;
@@ -38,6 +39,7 @@ a, a:hover, a:focus, a:active {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom:5%;
 
 }
 .header{
@@ -50,6 +52,8 @@ a, a:hover, a:focus, a:active {
 
 .intro-img{
   width:350px;
+  margin-bottom: 25px;
+  border-radius: 1.5rem;
 }
 
 .our-agents{
@@ -64,10 +68,19 @@ a, a:hover, a:focus, a:active {
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: no-wrap;
-}
+    }
 
 .sirs {
-    width: 200px;
+    width: 300px;
+    padding:10px;
+    margin: 10px;
+    border-style: solid;
+    border-radius: 1.5rem;
+
+}
+
+.sirs:hover{
+    width: 400px;
 }
 
 .quote{
@@ -97,6 +110,7 @@ a, a:hover, a:focus, a:active {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-size: 18px;
 
 }
 
