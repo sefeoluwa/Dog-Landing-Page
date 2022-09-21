@@ -79,12 +79,13 @@ a, a:hover, a:focus, a:active {
     margin: 10px;
     border-style: solid;
     border-radius: 1.5rem;
+    transition: width ease-in 0.5s;
 
 }
 
 .sirs:hover{
-    width: 400px;
-    cursor:crosshair;
+    width: 350px;
+    cursor: crosshair;
 }
 
 .quote{
@@ -149,3 +150,4 @@ button:hover{
     color: #E5E7EB;
     text-shadow:#E5E7EB ;
 }
+
