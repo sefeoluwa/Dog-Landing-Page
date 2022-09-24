@@ -87,6 +87,7 @@ a, a:hover, a:focus, a:active {
 .sirs:hover{
     width: 350px;
     cursor: crosshair;
+    border-radius: 1.8rem; 
 }
 
 .quote{
